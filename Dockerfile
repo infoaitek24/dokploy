@@ -60,6 +60,6 @@ RUN curl -sSL https://nixpacks.com/install.sh -o install.sh \
 RUN curl -sSL "https://github.com/buildpacks/pack/releases/download/v0.32.1/pack-v0.32.1-linux.tgz" | tar -C /usr/local/bin/ --no-same-owner -xzv pack
 
 # Expose port
-EXPOSE 3000
+EXPOSE 3250
 
 CMD ["pnpm", "start"]
