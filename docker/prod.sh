@@ -85,5 +85,5 @@ NC="\033[0m" # No Color
 echo ""
 printf "${GREEN}Congratulations, Dokploy is installed!${NC}\n"
 printf "${BLUE}Wait 15 seconds for the server to start${NC}\n"
-printf "${YELLOW}Please go to http://${public_ip}:3000${NC}\n\n"
+printf "${YELLOW}Please go to http://${public_ip}:3250${NC}\n\n"
 echo ""
